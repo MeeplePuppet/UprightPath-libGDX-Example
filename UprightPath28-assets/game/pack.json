@@ -1,0 +1,6 @@
+{
+	outputFormat: png,
+	jpegQuality: 0.8,
+	combineSubdirectories: true,
+	flattenPaths: true
+}

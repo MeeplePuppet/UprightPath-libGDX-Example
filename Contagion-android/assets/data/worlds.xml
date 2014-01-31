@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contagion>
+   <world name="Earth" style="ALL" background="earth" description="An airborne contamination has occurred. The CDC is attempting to restrict movement but contamination is spreading.">
+      <mode name="DERP" chance="4" curetime="20" numcdc="2" rate="100" />
+      <mode name="Easy" chance="10" curetime="10" numcdc="4" rate="1" />
+      <mode name="Hard" chance="4" curetime="20" numcdc="2" rate="3" />
+      <city id="0" coeff="1" x="0.01625" y="0.69166666" />
+      <city id="1" coeff="1" x="0.1175" y="0.73541665" />
+      <city id="2" coeff="1" x="0.18875" y="0.71875" />
+      <city id="3" coeff="1" x="0.22625" y="0.6958333" />
+      <city id="4" coeff="1" x="0.19" y="0.64166665" />
+      <city id="5" coeff="1" x="0.1325" y="0.61875" />
+      <city id="6" coeff="1" x="0.00875" y="0.62291664" />
+      <city id="7" coeff="1" x="0.065" y="0.525" />
+      <city id="8" coeff="1" x="0.1475" y="0.55625" />
+      <city id="9" coeff="1" x="0.145" y="0.38541666" />
+      <city id="10" coeff="1" x="0.155" y="0.29166666" />
+      <city id="11" coeff="1" x="0.17875" y="0.17083333" />
+      <city id="12" coeff="1" x="0.27875" y="0.24791667" />
+      <city id="13" coeff="1" x="0.24375" y="0.17916666" />
+      <city id="14" coeff="1" x="0.41125" y="0.75416666" />
+      <city id="15" coeff="1" x="0.46875" y="0.79791665" />
+      <city id="16" coeff="1" x="0.54625" y="0.8041667" />
+      <city id="17" coeff="1" x="0.44625" y="0.71458334" />
+      <city id="18" coeff="1" x="0.495" y="0.73125" />
+      <city id="19" coeff="1" x="0.5925" y="0.74375" />
+      <city id="20" coeff="1" x="0.41875" y="0.65833336" />
+      <city id="21" coeff="1" x="0.5275" y="0.6770833" />
+      <city id="22" coeff="1" x="0.64375" y="0.68333334" />
+      <city id="23" coeff="1" x="0.84125" y="0.68333334" />
+      <city id="24" coeff="1" x="0.8875" y="0.69166666" />
+      <city id="25" coeff="1" x="0.94125" y="0.65208334" />
+      <city id="26" coeff="1" x="0.93375" y="0.59375" />
+      <city id="27" coeff="1" x="0.8975" y="0.56666666" />
+      <city id="28" coeff="1" x="0.8475" y="0.62916666" />
+      <city id="29" coeff="1" x="0.78625" y="0.57708335" />
+      <city id="30" coeff="1" x="0.735" y="0.6041667" />
+      <city id="31" coeff="1" x="0.67875" y="0.575" />
+      <city id="32" coeff="1" x="0.595" y="0.61875" />
+      <city id="33" coeff="1" x="0.52375" y="0.56666666" />
+      <city id="34" coeff="1" x="0.4525" y="0.59791666" />
+      <city id="35" coeff="1" x="0.60875" y="0.50625" />
+      <city id="36" coeff="1" x="0.7125" y="0.49583334" />
+      <city id="37" coeff="1" x="0.75" y="0.45208332" />
+      <city id="38" coeff="1" x="0.81625" y="0.47916666" />
+      <city id="39" coeff="1" x="0.92125" y="0.42291668" />
+      <city id="40" coeff="1" x="0.8725" y="0.38125" />
+      <city id="41" coeff="1" x="0.83125" y="0.34791666" />
+      <city id="42" coeff="1" x="0.955" y="0.16875" />
+      <city id="43" coeff="1" x="0.4325" y="0.44375" />
+      <city id="44" coeff="1" x="0.495" y="0.31875" />
+      <city id="45" coeff="1" x="0.5325" y="0.16666667" />
+      <city id="46" coeff="1" x="0.84875" y="0.55833334" />
+      <city id="47" coeff="1" x="0.5325" y="0.44375" />
+      <citylink first="3" second="2" />
+      <citylink first="3" second="4" />
+      <citylink first="2" second="4" />
+      <citylink first="2" second="1" />
+      <citylink first="5" second="4" />
+      <citylink first="3" second="4" />
+      <citylink first="1" second="5" />
+      <citylink first="0" second="1" />
+      <citylink first="1" second="6" />
+      <citylink first="1" second="7" />
+      <citylink first="0" second="6" />
+      <citylink first="6" second="7" />
+      <citylink first="5" second="8" />
+      <citylink first="8" second="7" />
+      <citylink first="4" second="8" />
+      <citylink first="8" second="9" />
+      <citylink first="7" second="9" />
+      <citylink first="7" second="10" />
+      <citylink first="9" second="10" />
+      <citylink first="10" second="11" />
+      <citylink first="9" second="13" />
+      <citylink first="13" second="12" />
+      <citylink first="12" second="9" />
+      <citylink first="12" second="43" />
+      <citylink first="43" second="44" />
+      <citylink first="44" second="47" />
+      <citylink first="47" second="43" />
+      <citylink first="44" second="45" />
+      <citylink first="45" second="47" />
+      <citylink first="3" second="20" />
+      <citylink first="20" second="14" />
+      <citylink first="14" second="3" />
+      <citylink first="14" second="17" />
+      <citylink first="17" second="20" />
+      <citylink first="20" second="34" />
+      <citylink first="34" second="17" />
+      <citylink first="20" second="12" />
+      <citylink first="17" second="15" />
+      <citylink first="17" second="18" />
+      <citylink first="18" second="15" />
+      <citylink first="15" second="16" />
+      <citylink first="16" second="21" />
+      <citylink first="21" second="18" />
+      <citylink first="21" second="34" />
+      <citylink first="34" second="33" />
+      <citylink first="33" second="21" />
+      <citylink first="33" second="47" />
+      <citylink first="33" second="35" />
+      <citylink first="35" second="32" />
+      <citylink first="32" second="33" />
+      <citylink first="32" second="21" />
+      <citylink first="21" second="19" />
+      <citylink first="19" second="16" />
+      <citylink first="19" second="22" />
+      <citylink first="22" second="32" />
+      <citylink first="32" second="31" />
+      <citylink first="31" second="22" />
+      <citylink first="31" second="35" />
+      <citylink first="30" second="22" />
+      <citylink first="31" second="30" />
+      <citylink first="30" second="36" />
+      <citylink first="36" second="31" />
+      <citylink first="36" second="37" />
+      <citylink first="37" second="30" />
+      <citylink first="37" second="41" />
+      <citylink first="41" second="40" />
+      <citylink first="40" second="39" />
+      <citylink first="39" second="42" />
+      <citylink first="42" second="41" />
+      <citylink first="40" second="38" />
+      <citylink first="38" second="41" />
+      <citylink first="39" second="46" />
+      <citylink first="46" second="40" />
+      <citylink first="37" second="38" />
+      <citylink first="38" second="29" />
+      <citylink first="29" second="37" />
+      <citylink first="29" second="30" />
+      <citylink first="29" second="46" />
+      <citylink first="46" second="27" />
+      <citylink first="27" second="26" />
+      <citylink first="26" second="25" />
+      <citylink first="25" second="24" />
+      <citylink first="24" second="23" />
+      <citylink first="23" second="28" />
+      <citylink first="28" second="46" />
+      <citylink first="27" second="28" />
+      <citylink first="28" second="25" />
+      <citylink first="28" second="24" />
+      <citylink first="14" second="15" />
+   </world>
+</contagion>
